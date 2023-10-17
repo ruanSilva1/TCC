@@ -30,7 +30,13 @@ div .conteudo label {
   font-size: 18px;
 }
 div .conteudo .dt-nasc {
-  margin-left: 40%;
+  margin-left: 31.5%;
+}
+div .conteudo .label-tel {
+  transform: translate(0, -60px);
+}
+div .conteudo .cpf {
+  transform: translate(-35px);
 }
 div .conteudo input {
   width: 30%;
@@ -43,8 +49,72 @@ div .conteudo input {
 }
 div .conteudo .input-dt-nasc {
   width: 15%;
+  transform: translate(-130px);
 }
 div .conteudo .input-cpf {
+  width: 15%;
+  transform: translate(-250px, 0);
+}
+div .conteudo .email {
+  margin-left: 20%;
+  transform: translate(0, -60px);
+}
+div .conteudo .label-cep {
+  margin-left: 32%;
+  transform: translate(0, -60px);
+}
+div .conteudo .input-tel {
+  width: 20%;
+  transform: translate(0, -60px);
+}
+div .conteudo .input-email {
+  width: 30%;
+  transform: translate(-130px, -60px);
+}
+div .conteudo .input-cep {
   width: 10%;
-  transform: translate(-85px, 0);
+  transform: translate(-250px, -60px);
+  display: inline-flex;
+}
+div .conteudo .lb-rg {
+  transform: translate(0, -110px);
+}
+div .conteudo .lb-endereco {
+  transform: translate(30px, -110px);
+}
+div .conteudo .lb-cidade {
+  transform: translate(400px, -110px);
+}
+div .conteudo .input-rg {
+  width: 12.5%;
+  transform: translate(0, -110px);
+}
+div .conteudo .input-endereco {
+  width: 38%;
+  transform: translate(-130px, -110px);
+}
+div .conteudo .input-cidade {
+  width: 10%;
+  transform: translate(-260px, -110px);
+}
+div .conteudo .numero {
+  width: 7%;
+  transform: translate(0, -160px);
+}
+div .conteudo .bairro {
+  width: 40%;
+  transform: translate(-125px, -160px);
+}
+div .conteudo .uf {
+  width: 13%;
+  transform: translate(-250px, -160px);
+}
+div .conteudo .label-bairro {
+  transform: translate(-45px, -160px);
+}
+div .conteudo .label-uf {
+  transform: translate(390px, -160px);
+}
+div .conteudo .label-numero {
+  transform: translate(0, -160px);
 }/*# sourceMappingURL=cadastro_funcionarios.css.map */

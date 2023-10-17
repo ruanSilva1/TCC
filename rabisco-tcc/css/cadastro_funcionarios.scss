@@ -34,8 +34,13 @@ div{
             font-weight: bold;
             font-size: 18px;
         }
-        .dt-nasc{margin-left: 40%;}
-
+        .dt-nasc{margin-left: 31.5%;}
+        .label-tel{
+            transform: translate(0, -60px);
+        }
+        .cpf{
+            transform: translate(-35px);
+        }
         input{
             width: 30%;
             height: 4vh;
@@ -47,10 +52,69 @@ div{
         }
         .input-dt-nasc{
             width: 15%;
+            transform: translate(-130px);
         }
         .input-cpf{
+            width: 15%;
+            transform: translate(-250px, 0);
+        }
+
+        .email{
+            margin-left: 20%;
+            transform: translate(0, -60px);
+        }
+        
+        .label-cep{
+            margin-left: 32%;
+            transform: translate(0, -60px);
+        }
+
+        .input-tel{
+            width: 20%;
+            transform: translate(0, -60px);
+        }
+        .input-email{
+            width: 30%;
+            transform: translate(-130px, -60px);
+        }
+        .input-cep{
             width: 10%;
-            transform: translate(-85px, 0);
+            transform: translate(-250px, -60px);
+            display: inline-flex;
+        }
+
+        .lb-rg{transform: translate(0, -110px);}
+        .lb-endereco{transform: translate(30px, -110px);}
+        .lb-cidade{transform: translate(400px, -110px);}
+
+        .input-rg{width: 12.5%;transform: translate(0, -110px);}
+        .input-endereco{width: 38%;transform: translate(-130px,-110px);}
+        .input-cidade{width: 10%;transform: translate(-260px,-110px);}
+
+        .numero{
+            width: 7%;
+            transform: translate(0, -160px);
+        }
+
+        .bairro{
+            width: 40%;
+            transform: translate(-125px, -160px);
+        }
+
+        .uf{
+            width: 13%;
+            transform: translate(-250px, -160px);
+        }
+
+        .label-bairro{
+            transform: translate(-45px, -160px);
+        }
+        .label-uf{
+            transform: translate(390px, -160px);
+        }
+
+        .label-numero{
+            transform: translate(0, -160px);
         }
     }
 }
