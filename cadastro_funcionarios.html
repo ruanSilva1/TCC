@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/cadastro_funcionarios.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+        <title>Cadastro funcionários</title>
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="conteudo">
+                <h1>Cadastro funcionários</h1>
+
+                <form action="#" method="post">
+
+                    <label for="nome">Nome</label>
+                    <label class="dt-nasc" for="data nascimento">Data nascimento</label>
+                    <label class="cpf" for="cpf">CPF</label><br>
+
+                    <input type="text" name="nome" id="">
+                    <input class="input-dt-nasc" type="date" name="dataNascimento" id="">
+                    <input class="input-cpf" type="text" name="cpf" id=""><br>
+                    
+                    <label class="label-tel" for="telefone">Telefone</label>
+                    <label class="email" for="email">E-mail</label>
+                    <label class="label-cep" for="cep">CEP</label><br>
+
+                    <input class="input-tel" type="tel" name="telefone" id="">
+                    <input class="input-email" type="email" name="email" id="">
+                    <input class="input-cep" type="text" name="cep" id=""><br>
+
+                    <label class="lb-rg" for="rg">RG</label>
+                    <label class="lb-endereco" for="endereco">Endereço</label>
+                    <label class="lb-cidade" for="cidade">Cidade</label><br>
+
+                    <input class="input-rg" type="text" name="rg" id="">
+                    <input class="input-endereco" type="text" name="endereco" id="">
+                    <input class="input-cidade" type="text" name="cidade" id=""><br>
+
+                    <label class="label-numero" for="N">Nº</label>
+                    <label class="label-bairro" for="bairro">Bairro</label>
+                    <label class="label-uf" for="uf">UF</label><br>
+
+                    <input class="numero" type="number" name="numero" id="">
+                    <input class="bairro" type="text" name="bairro" id="">
+                    <input class="uf" type="text" name="uf" id=""><br>
+                    <p>Criar acesso</p>
+                    <hr>
+
+                    <label class="label-user" for="usuario">Usuario</label>
+                    <label class="label-password" for="senha">Senha</label><br>
+
+                    <input class="acesso" type="text" name="usuario" id="">
+                    <input class="acesso" type="password" name="senha" id="">
+                </form>
+                
+            </div>
+
+            <nav class="menu-lateral">
+                <div class="btn-expandir">
+                    <i class="bi bi-list" id="btn-exp"></i>
+                </div>
+        
+                <ul>
+                    <li class="item-menu ativo">
+                        <a href="vendas.html">
+                            <span class="icon"><i class="bi bi-cart3"></i></span>
+                            <span class="txt-link">Vendas</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="orcamento.html">
+                            <span class="icon"><i class="bi bi-piggy-bank"></i></span>
+                            <span class="txt-link">Orçamentos</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="#">
+                            <span class="icon"><i class="bi bi-person-vcard"></i></span>
+                            <span class="txt-link">Cadastros</span>
+                        </a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="#">
+                            <span class="icon"><i class="bi bi-box-seam"></i></span>
+                            <span class="txt-link">Estoque</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <script src="js/menu.js"></script>
+        </div>
+    </body>
+</html>

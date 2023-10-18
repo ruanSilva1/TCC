@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+@import 'variaveis';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    width: $widthContainer;
+    display: $disp;
+    box-sizing: $boxSiz;
+}
+div{
+    .conteudo{
+        width: $divDireita;
+        background-color: $corSalmaoClaro;
+        height: $heigthDiv;
+        transform: translate(0, -20px);
+        position: fixed;
+
+        .form{
+            width: 100%;
+            margin: 6.5% 10%;
+
+            input{
+                width: 25%;
+                height: 3vh;
+                display: inline-flex;
+                border-radius: 8px;
+                border-color: gray;
+                border-style: double;
+                margin-left: 19%;
+            }
+
+            .input-cpf{
+                width: 12%;
+                height: 3vh;
+            }
+            .nasc{
+                width: 14%;
+            }
+            .nome{
+                width: 23%;
+            }
+
+            label{
+                font-size: 20px;
+                font-weight: bold;
+                margin-left: 20%;
+            }
+        }
+        /*.bt{
+            width: 7%;
+            height: 4vh;
+            margin-left: 40%;
+            margin-top: 3%;
+            background-color: $salmaoEscuro;
+            border-color: gray;
+            border-style: double;
+            font-weight: bold;
+            border-radius: 10px;
+
+            a{
+                font-size: 16px;
+                text-decoration: none;
+                color: black;
+            }
+        }*/
+    }
+
+    .lateral{
+        width: 23%;
+        background-color: $salmaoEscuro;
+        height: $heigthDiv;
+        position: fixed;
+        transform: translate(0, -20px);
+
+        .imagem{
+            width: 60%;
+            border-radius: 30px 17px;
+            margin: 65% 20%;
+        }
+    }
+
+    h1{
+        font-size: 30px;
+        transform: translate(400px, 70px);
+    }
+}

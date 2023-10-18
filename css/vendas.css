@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-flex;
+}
+
+@media screen and (max-width: 1920px) {
+  div .div-direita {
+    width: 100%;
+    background-color: #EBE1C5;
+    height: 750px;
+    transform: translate(0, -20px);
+    position: fixed;
+  }
+  div h1 {
+    transform: translate(350px, 30px);
+  }
+  div button {
+    transform: translate(1360px, -10px);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f4d092;
+    border-style: solid;
+    border-color: gray;
+  }
+  div button .add-venda {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  div input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    transform: translate(190px, 90px);
+    background-color: #f4d092;
+  }
+  div table {
+    transform: translate(330px, 140px);
+    width: 70%;
+    border-style: solid;
+    border: 2px solid;
+    border-radius: 4px;
+    border-color: gray;
+  }
+}
+@media screen and (max-width: 1360px) {
+  div .div-direita {
+    width: 100%;
+    background-color: #EBE1C5;
+    height: 750px;
+    transform: translate(0, -20px);
+    position: fixed;
+  }
+  div h1 {
+    transform: translate(350px, 30px);
+  }
+  div button {
+    transform: translate(1160px, -10px);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f4d092;
+    border-style: solid;
+    border-color: gray;
+  }
+  div button .add-venda {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  div input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    transform: translate(190px, 90px);
+    background-color: #f4d092;
+  }
+  div table {
+    transform: translate(330px, 140px);
+    width: 70%;
+    border-style: solid;
+    border: 2px solid;
+    border-radius: 4px;
+    border-color: gray;
+  }
+}/*# sourceMappingURL=vendas.css.map */

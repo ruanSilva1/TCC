@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+@import 'variaveis';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    width: $widthContainer;
+    box-sizing: $boxSiz;
+    display: $disp;
+}
+@media screen and (max-width: 1920px){
+    div{
+        .div-direita{
+            width: $divDireita;
+            background-color: $corSalmaoClaro;
+            height: $heigthDiv;
+            transform: translate(0, -20px);
+            position: fixed;
+        }
+    
+        h1{
+            transform: translate(350px, 30px);
+        }
+        button.nv-orcamento{
+            transform: translate(1360px, -10px);
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+            background-color: $CarameloEscuro;
+            border-style: solid;
+            border-color: gray;
+    
+            .link-a{
+                color: black;
+                font-size: 15px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+        button.cad-cliente{
+            transform: translate(1207px, 35px);
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+            background-color: $CarameloEscuro;
+            border-style: solid;
+            border-color: gray;
+    
+            .link-a{
+                color: black;
+                font-size: 15px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+        table{
+            transform: translate(330px, 140px);
+            width: 70%;
+            border-style:solid;
+            border: 2px solid;
+            border-radius: 4px;
+            border-color: gray;
+        }
+        input{
+            width: 400px;
+            height: 30px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: gray;
+            transform: translate(25px, 90px);
+            background-color: $CarameloEscuro;
+            color: black;
+        }
+    }
+}
+@media screen and (max-width: 1360px){
+    div{
+        .div-direita{
+            width: $divDireita;
+            background-color: $corSalmaoClaro;
+            height: $heigthDiv;
+            transform: translate(0, -20px);
+            position: fixed;
+        }
+    
+        h1{
+            transform: translate(350px, 30px);
+        }
+        button.nv-orcamento{
+            transform: translate(1160px, -10px);
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+            background-color: $CarameloEscuro;
+            border-style: solid;
+            border-color: gray;
+    
+            .link-a{
+                color: black;
+                font-size: 15px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+        button.cad-cliente{
+            transform: translate(1007px, 35px);
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+            background-color: $CarameloEscuro;
+            border-style: solid;
+            border-color: gray;
+    
+            .link-a{
+                color: black;
+                font-size: 15px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+        table{
+            transform: translate(330px, 140px);
+            width: 70%;
+            border-style:solid;
+            border: 2px solid;
+            border-radius: 4px;
+            border-color: gray;
+        }
+        input{
+            width: 400px;
+            height: 30px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: gray;
+            transform: translate(25px, 90px);
+            background-color: $CarameloEscuro;
+            color: black;
+        }
+    }
+}

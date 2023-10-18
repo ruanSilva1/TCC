@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-flex;
+}
+
+div .conteudo {
+  width: 100%;
+  height: 100vh;
+  background-color: #EBE1C5;
+  position: fixed;
+  transform: translate(0, -16px);
+}
+div .conteudo h1 {
+  font-size: 25px;
+  transform: translate(200px, 40px);
+}
+div .conteudo label {
+  margin-left: 13.5%;
+  display: inline-flex;
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 18px;
+}
+div .conteudo .dt-nasc {
+  margin-left: 34%;
+}
+div .conteudo .label-tel {
+  transform: translate(0, -60px);
+}
+div .conteudo .cpf {
+  margin-left: 14.5%;
+}
+div .conteudo input {
+  width: 30%;
+  height: 4vh;
+  border-radius: 7px;
+  border-color: grey;
+  border-style: double;
+  margin-left: 13%;
+  margin-top: 10px;
+}
+div .conteudo .input-dt-nasc {
+  width: 15%;
+  transform: translate(-130px);
+}
+div .conteudo .input-cpf {
+  width: 15%;
+  transform: translate(-250px, 0);
+}
+div .conteudo .email {
+  margin-left: 23%;
+  transform: translate(0, -60px);
+}
+div .conteudo .label-cep {
+  margin-left: 34%;
+  transform: translate(0, -60px);
+}
+div .conteudo .input-tel {
+  width: 20%;
+  transform: translate(0, -60px);
+}
+div .conteudo .input-email {
+  width: 30%;
+  transform: translate(-130px, -60px);
+}
+div .conteudo .input-cep {
+  width: 10%;
+  transform: translate(-250px, -60px);
+  display: inline-flex;
+}
+div .conteudo .lb-rg {
+  transform: translate(0, -110px);
+}
+div .conteudo .lb-endereco {
+  transform: translate(80px, -110px);
+}
+div .conteudo .lb-cidade {
+  transform: translate(600px, -110px);
+}
+div .conteudo .input-rg {
+  width: 12.5%;
+  transform: translate(0, -110px);
+}
+div .conteudo .input-endereco {
+  width: 38%;
+  transform: translate(-130px, -110px);
+}
+div .conteudo .input-cidade {
+  width: 10%;
+  transform: translate(-260px, -110px);
+}
+div .conteudo .numero {
+  width: 7%;
+  transform: translate(0, -160px);
+}
+div .conteudo .bairro {
+  width: 40%;
+  transform: translate(-125px, -160px);
+}
+div .conteudo .uf {
+  width: 13%;
+  transform: translate(-250px, -160px);
+}
+div .conteudo .label-bairro {
+  transform: translate(-10px, -160px);
+}
+div .conteudo .label-uf {
+  transform: translate(565px, -160px);
+}
+div .conteudo .label-numero {
+  transform: translate(0, -160px);
+}
+div .conteudo p {
+  margin-left: 13.2%;
+  font-size: 23px;
+  font-weight: bold;
+  transform: translate(0, -75px);
+}
+div .conteudo hr {
+  width: 65%;
+  margin-left: 21%;
+  background-color: black;
+  border-style: double;
+  transform: translate(0, -85px);
+}
+div .conteudo .label-user {
+  transform: translate(0, -100px);
+}
+div .conteudo .label-password {
+  transform: translate(500px, -100px);
+}
+div .conteudo .acesso {
+  transform: translate(0, -100px);
+}/*# sourceMappingURL=cadastro_funcionarios.css.map */

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-flex;
+}
+
+div .conteudo {
+  width: 100%;
+  height: 100vh;
+  background-color: #EBE1C5;
+  box-sizing: border-box;
+  position: fixed;
+  transform: translate(0, -16px);
+}
+div .conteudo h1 {
+  font-size: 25px;
+  margin: 5% 15%;
+}
+div .conteudo label {
+  font-size: 18px;
+  margin-left: 15%;
+  padding: 20px;
+}
+div .conteudo .label-inp-menor {
+  margin-left: 270px;
+}
+div .conteudo .cp {
+  margin-left: 175px;
+}
+div .conteudo .fileira2 {
+  margin-top: 2%;
+  display: inline-flex;
+}
+div .conteudo .label-email {
+  margin-left: 11%;
+}
+div .conteudo .label-cep {
+  margin-left: 21.8%;
+}
+div .conteudo .label-n {
+  margin-left: 10%;
+}
+div .conteudo input {
+  display: inline-flex;
+  width: 25%;
+  height: 3.25vh;
+  transform: translate(250px, 10px);
+  border-radius: 7px;
+  border-style: double;
+  border-color: gray;
+}
+div .conteudo .input-menor {
+  width: 20%;
+  margin-left: 3%;
+}
+div .conteudo input.input-fil2 {
+  width: 15%;
+  display: inline-flex;
+  transform: translate(250px, -12px);
+}
+div .conteudo .input-email {
+  transform: translate(290px, -12px);
+}
+div .conteudo .input-cep {
+  width: 13%;
+  transform: translate(325px, -12px);
+}
+div .conteudo .input-n {
+  width: 10.7%;
+  transform: translate(355px, -12px);
+}
+div .conteudo .fileira3 {
+  margin-top: 2%;
+  display: inline-flex;
+}
+div .conteudo .lb-valor {
+  margin-left: 22%;
+}
+div .conteudo .lb-form-pag {
+  margin-left: 25.5%;
+}
+div .conteudo .fileira4 {
+  width: 28%;
+  transform: translate(250px, -12px);
+  display: inline-flex;
+}
+div .conteudo .input-valor {
+  width: 30%;
+  transform: translate(270px, -12px);
+}
+div .conteudo select {
+  width: 11%;
+  height: 3vh;
+  border-radius: 7px;
+  transform: translate(285px, -12px);
+  display: inline-flex;
+}
+div .conteudo .label-pedido {
+  margin-top: 2%;
+  display: inline-flex;
+}
+div .conteudo textarea {
+  margin-left: 16%;
+  transform: translate(0, -12px);
+  border-radius: 7px;
+}
+div .conteudo .sub {
+  width: 7%;
+  height: 4vh;
+  transform: translate(20px, -640px);
+  padding-left: 33px;
+}
+div .conteudo button {
+  width: 7%;
+  height: 4vh;
+  transform: translate(1373px, -620px);
+  border-radius: 7px;
+  border-color: gray;
+  border-style: double;
+}
+div .conteudo button a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=incluir_orcamento.css.map */
