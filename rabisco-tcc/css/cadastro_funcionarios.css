@@ -18,9 +18,12 @@ div .conteudo {
   position: fixed;
   transform: translate(0, -16px);
 }
+div .conteudo .formulario {
+  margin-left: 120px;
+}
 div .conteudo h1 {
   font-size: 25px;
-  transform: translate(200px, 40px);
+  transform: translate(310px, 40px);
 }
 div .conteudo label {
   margin-left: 13.5%;
@@ -117,4 +120,216 @@ div .conteudo .label-uf {
 }
 div .conteudo .label-numero {
   transform: translate(0, -160px);
+}
+div .conteudo hr {
+  width: 61%;
+  transform: translate(300px, -100px);
+  background-color: black;
+  border-style: double;
+}
+div .conteudo p {
+  font-weight: bold;
+  transform: translate(185px, -115px);
+}
+div .conteudo .label-usuario {
+  transform: translate(0, -190px);
+}
+div .conteudo .label-senha {
+  transform: translate(350px, -190px);
+}
+div .conteudo .input-usuario {
+  width: 35%;
+  transform: translate(0, -180px);
+}
+div .conteudo .input-senha {
+  width: 30%;
+  transform: translate(-120px, -180px);
+}
+div .conteudo .sub {
+  width: 6%;
+  font-size: 15px;
+  color: black;
+  background-color: #f4d092;
+  transform: translate(1100px, -820px);
+}
+div .conteudo .voltar {
+  width: 6%;
+  height: 4vh;
+  border-radius: 7px;
+  border-color: grey;
+  border-style: double;
+  background-color: #f4d092;
+  transform: translate(1012px, -770px);
+}
+div .conteudo .voltar a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+div .esquerda {
+  width: 15%;
+  height: 100vh;
+  background-color: #f4d092;
+  position: fixed;
+  transform: translate(0, -16px);
+}
+div .esquerda img {
+  width: 60%;
+  margin: 90% 20%;
+  border-radius: 20px 7px;
+}
+
+@media screen and (max-width: 1360px) {
+  .conteudo {
+    width: 100%;
+    height: 100vh;
+    background-color: #EBE1C5;
+    position: fixed;
+    transform: translate(0, -16px);
+  }
+  .conteudo h1 {
+    font-size: 25px;
+    transform: translate(200px, 40px);
+  }
+  .conteudo label {
+    margin-left: 13.5%;
+    display: inline-flex;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .conteudo .dt-nasc {
+    margin-left: 31.5%;
+  }
+  .conteudo .label-tel {
+    transform: translate(0, -60px);
+  }
+  .conteudo .cpf {
+    transform: translate(-35px);
+  }
+  .conteudo input {
+    width: 30%;
+    height: 4vh;
+    border-radius: 7px;
+    border-color: grey;
+    border-style: double;
+    margin-left: 13%;
+    margin-top: 10px;
+  }
+  .conteudo .input-dt-nasc {
+    width: 15%;
+    transform: translate(-130px);
+  }
+  .conteudo .input-cpf {
+    width: 15%;
+    transform: translate(-250px, 0);
+  }
+  .conteudo .email {
+    margin-left: 20%;
+    transform: translate(0, -60px);
+  }
+  .conteudo .label-cep {
+    margin-left: 32%;
+    transform: translate(0, -60px);
+  }
+  .conteudo .input-tel {
+    width: 20%;
+    transform: translate(0, -60px);
+  }
+  .conteudo .input-email {
+    width: 30%;
+    transform: translate(-130px, -60px);
+  }
+  .conteudo .input-cep {
+    width: 10%;
+    transform: translate(-250px, -60px);
+    display: inline-flex;
+  }
+  .conteudo .lb-rg {
+    transform: translate(0, -110px);
+  }
+  .conteudo .lb-endereco {
+    transform: translate(30px, -110px);
+  }
+  .conteudo .lb-cidade {
+    transform: translate(400px, -110px);
+  }
+  .conteudo .input-rg {
+    width: 12.5%;
+    transform: translate(0, -110px);
+  }
+  .conteudo .input-endereco {
+    width: 38%;
+    transform: translate(-130px, -110px);
+  }
+  .conteudo .input-cidade {
+    width: 10%;
+    transform: translate(-260px, -110px);
+  }
+  .conteudo .numero {
+    width: 7%;
+    transform: translate(0, -160px);
+  }
+  .conteudo .bairro {
+    width: 40%;
+    transform: translate(-125px, -160px);
+  }
+  .conteudo .uf {
+    width: 13%;
+    transform: translate(-250px, -160px);
+  }
+  .conteudo .label-bairro {
+    transform: translate(-45px, -160px);
+  }
+  .conteudo .label-uf {
+    transform: translate(390px, -160px);
+  }
+  .conteudo .label-numero {
+    transform: translate(0, -160px);
+  }
+  .conteudo hr {
+    width: 63%;
+    transform: translate(310px, -100px);
+    background-color: black;
+    border-style: double;
+  }
+  .conteudo p {
+    font-weight: bold;
+    transform: translate(200px, -115px);
+  }
+  .conteudo .label-usuario {
+    transform: translate(0, -190px);
+  }
+  .conteudo .label-senha {
+    transform: translate(350px, -190px);
+  }
+  .conteudo .input-usuario {
+    width: 35%;
+    transform: translate(0, -180px);
+  }
+  .conteudo .input-senha {
+    width: 30%;
+    transform: translate(-120px, -180px);
+  }
+  .conteudo .sub {
+    width: 6%;
+    font-size: 15px;
+    color: black;
+    background-color: #f4d092;
+    transform: translate(1170px, -820px);
+  }
+  .conteudo .voltar {
+    width: 6%;
+    height: 4vh;
+    border-radius: 7px;
+    border-color: grey;
+    border-style: double;
+    background-color: #f4d092;
+    transform: translate(1075px, -770px);
+  }
+  .conteudo .voltar a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+  }
 }/*# sourceMappingURL=cadastro_funcionarios.css.map */

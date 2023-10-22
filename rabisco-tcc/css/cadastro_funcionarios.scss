@@ -22,6 +22,174 @@ div{
         position: fixed;
         transform: translate(0, -16px);
 
+        .formulario{
+            margin-left: 120px;
+        }
+
+        h1{
+            font-size: 25px;
+            transform: translate(310px, 40px);
+        }
+
+        label{
+            margin-left: 13.5%;
+            display: inline-flex;
+            padding-top: 100px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .dt-nasc{margin-left: 31.5%;}
+        .label-tel{
+            transform: translate(0, -60px);
+        }
+        .cpf{
+            transform: translate(-35px);
+        }
+        input{
+            width: 30%;
+            height: 4vh;
+            border-radius: 7px;
+            border-color: grey;
+            border-style: double;
+            margin-left: 13%;
+            margin-top: 10px;
+        }
+        .input-dt-nasc{
+            width: 15%;
+            transform: translate(-130px);
+        }
+        .input-cpf{
+            width: 15%;
+            transform: translate(-250px, 0);
+        }
+
+        .email{
+            margin-left: 20%;
+            transform: translate(0, -60px);
+        }
+        
+        .label-cep{
+            margin-left: 32%;
+            transform: translate(0, -60px);
+        }
+
+        .input-tel{
+            width: 20%;
+            transform: translate(0, -60px);
+        }
+        .input-email{
+            width: 30%;
+            transform: translate(-130px, -60px);
+        }
+        .input-cep{
+            width: 10%;
+            transform: translate(-250px, -60px);
+            display: inline-flex;
+        }
+
+        .lb-rg{transform: translate(0, -110px);}
+        .lb-endereco{transform: translate(30px, -110px);}
+        .lb-cidade{transform: translate(400px, -110px);}
+
+        .input-rg{width: 12.5%;transform: translate(0, -110px);}
+        .input-endereco{width: 38%;transform: translate(-130px,-110px);}
+        .input-cidade{width: 10%;transform: translate(-260px,-110px);}
+
+        .numero{
+            width: 7%;
+            transform: translate(0, -160px);
+        }
+
+        .bairro{
+            width: 40%;
+            transform: translate(-125px, -160px);
+        }
+
+        .uf{
+            width: 13%;
+            transform: translate(-250px, -160px);
+        }
+
+        .label-bairro{
+            transform: translate(-45px, -160px);
+        }
+        .label-uf{
+            transform: translate(390px, -160px);
+        }
+
+        .label-numero{
+            transform: translate(0, -160px);
+        }
+        hr{
+            width: 61%;
+            transform: translate(300px, -100px);
+            background-color: black;
+            border-style: double;
+        }
+        p{
+            font-weight: bold;
+            transform: translate(185px, -115px);
+        }
+        .label-usuario{
+            transform: translate(0, -190px);
+        }
+        .label-senha{
+            transform: translate(350px, -190px);
+        }
+        .input-usuario{
+            width: 35%;
+            transform: translate(0, -180px);
+        }
+        .input-senha{
+            width: 30%;
+            transform: translate(-120px, -180px);
+        }
+        .sub{
+            width: 6%;
+            font-size: 15px;
+            color: black;
+            background-color: $CarameloEscuro;
+            transform: translate(1100px, -820px);
+        }
+        .voltar{
+            width: 6%;
+            height: 4vh;
+            border-radius: 7px;
+            border-color: grey;
+            border-style: double;
+            background-color: $CarameloEscuro;
+            transform: translate(1012px, -770px);
+            a{
+                color: black;
+                font-size: 15px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .esquerda{
+        width: 15%;
+        height: 100vh;
+        background-color: $CarameloEscuro;
+        position: fixed;
+        transform: translate(0, -16px);
+
+        img{
+            width: 60%;
+            margin: 90% 20%;
+            border-radius: 20px 7px;
+        }
+    }
+}
+
+@media screen and (max-width: 1360px){
+    .conteudo{
+        width: 100%;
+        height: 100vh;
+        background-color: $corSalmaoClaro;
+        position: fixed;
+        transform: translate(0, -16px);
+
         h1{
             font-size: 25px;
             transform: translate(200px, 40px);
@@ -115,6 +283,51 @@ div{
 
         .label-numero{
             transform: translate(0, -160px);
+        }
+        hr{
+            width: 63%;
+            transform: translate(310px, -100px);
+            background-color: black;
+            border-style: double;
+        }
+        p{
+            font-weight: bold;
+            transform: translate(200px, -115px);
+        }
+        .label-usuario{
+            transform: translate(0, -190px);
+        }
+        .label-senha{
+            transform: translate(350px, -190px);
+        }
+        .input-usuario{
+            width: 35%;
+            transform: translate(0, -180px);
+        }
+        .input-senha{
+            width: 30%;
+            transform: translate(-120px, -180px);
+        }
+        .sub{
+            width: 6%;
+            font-size: 15px;
+            color: black;
+            background-color: $CarameloEscuro;
+            transform: translate(1170px, -820px);
+        }
+        .voltar{
+            width: 6%;
+            height: 4vh;
+            border-radius: 7px;
+            border-color: grey;
+            border-style: double;
+            background-color: $CarameloEscuro;
+            transform: translate(1075px, -770px);
+            a{
+                color: black;
+                font-size: 15px;
+                text-decoration: none;
+            }
         }
     }
 }

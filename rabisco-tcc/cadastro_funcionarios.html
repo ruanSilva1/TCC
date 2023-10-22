@@ -14,7 +14,7 @@
             <div class="conteudo">
                 <h1>Cadastro funcionários</h1>
 
-                <form action="#" method="post">
+                <form class="formulario" action="#" method="post">
 
                     <label for="nome">Nome</label>
                     <label class="dt-nasc" for="data nascimento">Data nascimento</label>
@@ -46,43 +46,26 @@
 
                     <input class="numero" type="number" name="numero" id="">
                     <input class="bairro" type="text" name="bairro" id="">
-                    <input class="uf" type="text" name="uf" id="">
+                    <input class="uf" type="text" name="uf" id=""><hr>
+
+                    <p>Criar Acesso</p>
+
+                    <label class="label-usuario" for="usuario">Usuário</label>
+                    <label class="label-senha" for="senha">Senha</label><br>
+
+                    <input class="input-usuario" type="text" name="usuario" id="">
+                    <input class="input-senha" type="password" name="senha" id="">
+
+                    <input class="sub" type="submit" value="Salvar">
+                    <button class="voltar"><a href="login.html">Voltar</a></button>
+
                 </form>
-                
             </div>
 
-            <nav class="menu-lateral">
-                <div class="btn-expandir">
-                    <i class="bi bi-list" id="btn-exp"></i>
-                </div>
-        
-                <ul>
-                    <li class="item-menu ativo">
-                        <a href="vendas.html">
-                            <span class="icon"><i class="bi bi-cart3"></i></span>
-                            <span class="txt-link">Vendas</span>
-                        </a>
-                    </li>
-                    <li class="item-menu">
-                        <a href="orcamento.html">
-                            <span class="icon"><i class="bi bi-piggy-bank"></i></span>
-                            <span class="txt-link">Orçamentos</span>
-                        </a>
-                    </li>
-                    <li class="item-menu">
-                        <a href="#">
-                            <span class="icon"><i class="bi bi-person-vcard"></i></span>
-                            <span class="txt-link">Cadastros</span>
-                        </a>
-                    </li>
-                    <li class="item-menu">
-                        <a href="#">
-                            <span class="icon"><i class="bi bi-box-seam"></i></span>
-                            <span class="txt-link">Estoque</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="esquerda">
+                <img src="img/logo.png" alt="">
+            </div>
+            
             <script src="js/menu.js"></script>
         </div>
     </body>
