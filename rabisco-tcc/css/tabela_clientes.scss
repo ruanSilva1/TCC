@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+@import 'variaveis';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: $widthContainer;
+    box-sizing: $boxSiz;
+    display: $disp;
+}
+
+div{
+    .conteudo{
+        width: $divDireita;
+        background-color: $corSalmaoClaro;
+        height: 120vh;
+        transform: translate(0, -20px);
+        position: fixed;
+
+        .botao-cadastro{
+            transform: translate(1350px, -280px);
+            width: 9%;
+
+            button{
+                width: 100%;
+                height: 4vh;
+                border-radius: 7px;
+                border-color: gray;
+                border-style: double;
+                background-color: $CarameloEscuro;
+
+                a{
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+            button:hover{
+                background-color: $hovercolor;
+            }
+        }
+
+        .tabela{
+            width: 70%;
+            margin-left: 20%;
+
+            table{
+                width: 100%;
+                border: 1px solid;
+                border-style: solid;
+                transform: translate(0, -80px);
+                backdrop-filter: blur(100px);
+            }
+
+            th{
+                padding: 35px;
+                transform: translate(5px, 0);
+            }
+        }
+
+
+        .fileira-01{
+            width: 40%;
+            height: 4vh;
+            margin: 10% 20%;
+    
+            input{
+                width: 80%;
+                height: 4vh;
+                border-radius: 7px;
+                border-style: double;
+                border-color: gray;
+                background-color: $CarameloEscuro;
+            }
+            button{
+                width: 15%;
+                height: 4vh;
+                border-radius: 7px;
+                background-color: $CarameloEscuro;
+                border-style: double;
+                border-color: gray;
+                margin-left: 1%;
+                font-weight: bold;
+            }
+        }
+    }
+}

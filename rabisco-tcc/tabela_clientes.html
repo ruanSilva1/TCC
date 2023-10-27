@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/tabela_clientes.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Tabela Clientes</title>
+</head>
+<body>
+    <div class="main">
+        <div class="conteudo">
+            <div class="fileira-01">
+                <input type="text" name="buscar" id="" placeholder=" Pesquisar ">
+                <button type="submit">Pesquisar</button>
+            </div>
+
+            <div class="botao-cadastro">
+                <button><a href="#">Cadastrar cliente</a></button>
+            </div>
+
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <th>Cód</th>
+                        <th>Nome/Fantasia</th>
+                        <th>CPF</th>
+                        <th>CNPJ</th>
+                        <th>Telefone</th>
+                        <th>E-mail</th>
+                        <th>CEP</th>
+                        <th>Nº</th>
+                        <th>Data</th>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+        <nav class="menu-lateral">
+            <div class="btn-expandir">
+                <i class="bi bi-list" id="btn-exp"></i>
+            </div>
+    
+            <ul>
+                <li class="item-menu ativo">
+                    <a href="vendas.html">
+                        <span class="icon"><i class="bi bi-cart3"></i></span>
+                        <span class="txt-link">Vendas</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="orcamento.html">
+                        <span class="icon"><i class="bi bi-piggy-bank"></i></span>
+                        <span class="txt-link">Orçamentos</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-person-vcard"></i></span>
+                        <span class="txt-link">Cadastros</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-box-seam"></i></span>
+                        <span class="txt-link">Estoque</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <script src="js/menu.js"></script>  
+    </div>
+</body>
+</html>
