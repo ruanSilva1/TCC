@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+@import 'variaveis';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo{
+    width: 100%;
+    height: 120vh;
+    position: fixed;
+    background-color: $corSalmaoClaro;
+
+    .titulo{
+        margin: 3% 13%;
+    }
+
+    .formulario{
+        margin-left: 13%;
+
+        .p1{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 200px;
+            margin-left: -190px;
+        }
+
+        .input-nome{
+            width: 25%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+        }
+
+        .input-data-nascimento{
+            width: 28.5%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 1%;
+        }
+
+        .input-cpf{
+            width: 17.5%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 1%;
+        }
+
+        .input-cnpj{
+            width: 15%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 1%;
+        }
+
+        .p2{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 330px;
+            margin-left: -320px;
+        }
+
+        .input-telefone{
+            width: 30%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+        }
+
+        .input-email{
+            width: 29%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 1%;
+        }
+
+        .input-cep{
+            width: 28%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 1%;
+        }
+
+        .p3{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 330px;
+            margin-left: -320px;
+        }
+
+        .input-rg{
+            width: 26.5%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+        }
+
+        .input-endereco{
+            width: 30.5%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 1%;
+        }
+        .input-cidade{
+            width: 30%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 1%;
+        }
+
+        .l-p4{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 330px;
+            margin-left: -320px;
+        }
+        .l-p5{
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: -130px;
+        }
+        .l-p6{
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 650px;
+        }
+
+        .input-numero{
+            width: 15.5%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 15%;
+            transform: translate(-200px, 0);
+        }
+
+        .input-bairro{
+            width: 51.5%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 1%;
+            transform: translate(-200px, 0);
+        }
+
+        .input-uf{
+            width: 20%;
+            height: 4vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 1%;
+            transform: translate(920px, -30px);
+        }
+        .esp-label{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 490px;
+            margin-left: -480px;
+        }
+
+        .txt-area-obs{
+            width: 45%;
+            height: 25vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+        }
+        .txt-area-comp{
+            width: 44%;
+            height: 25vh;
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+            margin-left: 1%;
+        }
+
+        input[type="submit"]{
+            width: 8%;
+            height: 4vh;
+            border-radius: 7px;
+            border-color: gray;
+            border-style: double;
+            background-color: $CarameloEscuro;font-size: 16px;
+            font-weight: bold;transform: translate(-25px, -620px);
+        }
+
+        .bt{
+            width: 8%;
+            height: 4vh;
+            border-radius: 7px;
+            border-color: gray;
+            border-style: double;
+            background-color: $CarameloEscuro;font-size: 16px;
+            font-weight: bold;
+            transform: translate(1185px, -600px);
+            
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}

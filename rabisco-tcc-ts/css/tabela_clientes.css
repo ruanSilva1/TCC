@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-flex;
+}
+
+div .conteudo {
+  width: 100%;
+  background-color: #EBE1C5;
+  height: 120vh;
+  transform: translate(0, -20px);
+  position: fixed;
+}
+div .conteudo .botao-cadastro {
+  transform: translate(1350px, -280px);
+  width: 9%;
+}
+div .conteudo .botao-cadastro button {
+  width: 100%;
+  height: 4vh;
+  border-radius: 7px;
+  border-color: gray;
+  border-style: double;
+  background-color: #f4d092;
+}
+div .conteudo .botao-cadastro button a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+div .conteudo .botao-cadastro button:hover {
+  background-color: #ffd07e;
+}
+div .conteudo .tabela {
+  width: 70%;
+  margin-left: 20%;
+}
+div .conteudo .tabela table {
+  width: 100%;
+  border: 1px solid;
+  border-style: solid;
+  transform: translate(0, -80px);
+  -webkit-backdrop-filter: blur(100px);
+          backdrop-filter: blur(100px);
+}
+div .conteudo .tabela th {
+  padding: 35px;
+  transform: translate(5px, 0);
+}
+div .conteudo .fileira-01 {
+  width: 40%;
+  height: 4vh;
+  margin: 10% 20%;
+}
+div .conteudo .fileira-01 input {
+  width: 80%;
+  height: 4vh;
+  border-radius: 7px;
+  border-style: double;
+  border-color: gray;
+  background-color: #f4d092;
+}
+div .conteudo .fileira-01 button {
+  width: 15%;
+  height: 4vh;
+  border-radius: 7px;
+  background-color: #f4d092;
+  border-style: double;
+  border-color: gray;
+  margin-left: 1%;
+  font-weight: bold;
+}/*# sourceMappingURL=tabela_clientes.css.map */
