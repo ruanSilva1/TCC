@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-flex;
+  position: fixed;
+}
+
+div .conteudo {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to left, #F4D092, #EBE1C5);
+}
+div .conteudo .formulario {
+  width: 36%;
+  height: 65vh;
+  background-image: linear-gradient(to right, #F4D092, #EBE1C5);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  margin: 6% 31%;
+  border-radius: 25px;
+  padding: 40px 10px;
+}
+div .conteudo .formulario .title {
+  width: 75%;
+  margin-left: 12%;
+}
+div .conteudo .formulario .title h1 {
+  margin-left: 39%;
+}
+div .conteudo .formulario .title hr {
+  width: 100%;
+  border-style: solid;
+}
+div .conteudo .formulario .title .boot {
+  font-size: 80px;
+  transform: translate(165px, 0);
+}
+div .conteudo .campos label {
+  font-size: 23px;
+  font-weight: bold;
+  display: flex;
+  padding: 75px 41%;
+}
+div .conteudo .campos label[for=senha] {
+  transform: translate(7px, -80px);
+}
+div .conteudo .campos input[type=text] {
+  width: 65%;
+  height: 4vh;
+  margin: 0 17%;
+  transform: translate(0, -60px);
+  border-radius: 7px;
+  border-style: solid;
+  border-color: gray;
+}
+div .conteudo .campos input[type=text]:hover {
+  background-color: rgb(226, 222, 222);
+  transition: 0.4s;
+}
+div .conteudo .campos input[type=password] {
+  width: 65%;
+  height: 4vh;
+  margin: 0 17%;
+  transform: translate(0, -140px);
+  border-radius: 7px;
+  border-style: solid;
+  border-color: gray;
+}
+div .conteudo .campos input[type=password]:hover {
+  background-color: rgb(226, 222, 222);
+  transition: 0.4s;
+}
+div .conteudo .campos input[type=submit] {
+  width: 25%;
+  height: 4vh;
+  margin: 0 17%;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: gray;
+  font-size: 18px;
+  font-weight: bold;
+  transform: translate(105px, -90px);
+}
+div .conteudo .campos input[type=submit]:hover {
+  background-color: rgb(226, 222, 222);
+  transition: 0.4s;
+}/*# sourceMappingURL=index.css.map */
