@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/RF09.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Fornecedores</title>
+</head>
+<body>
+    <div class="container">
+        <div class="conteudo">
+
+            <h1>Fornecedores</h1>
+            <button class="bt"><a href="#">Cadastrar Fornecedor</a></button>
+            
+            <div class="search">
+                <input type="text" name="pesquisa" id="pesquisa" placeholder=" Pesquisar ">
+                <button type="submit">Pesquisar</button>
+            </div>
+
+            <div class="tabela">
+                <table class="tb">
+                    <tr>
+                        <thead>
+                            <th class="cabecalho-tab">Cod</th>
+                            <th class="cabecalho-tab">Nome/Fantasia</th>
+                            <th class="cabecalho-tab">Razao social</th>
+                            <th class="cabecalho-tab">CNPJ</th>
+                            <th class="cabecalho-tab">Telefone</th>
+                            <th class="cabecalho-tab">E-mail</th>
+                            <th class="cabecalho-tab">Data</th>
+                        </thead>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <nav class="menu-lateral">
+            <div class="btn-expandir">
+                <i class="bi bi-list" id="btn-exp"></i>
+            </div>
+    
+            <ul>
+                <li class="item-menu ativo">
+                    <a href="vendas.html">
+                        <span class="icon"><i class="bi bi-cart3"></i></span>
+                        <span class="txt-link">Vendas</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="orcamento.html">
+                        <span class="icon"><i class="bi bi-piggy-bank"></i></span>
+                        <span class="txt-link">Orçamentos</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-person-vcard"></i></span>
+                        <span class="txt-link">Cadastros</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-box-seam"></i></span>
+                        <span class="txt-link">Estoque</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <script src="js/menu.js"></script>
+    </div>
+</body>
+</html>

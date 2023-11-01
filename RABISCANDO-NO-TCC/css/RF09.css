@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+@media screen and (max-width: 1920px) {
+  .container {
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+  }
+  div .conteudo {
+    width: 100%;
+    height: 120vh;
+    background-color: #EBE1C5;
+    position: fixed;
+    transform: translate(0, -20px);
+  }
+  div .conteudo .bt {
+    width: 150px;
+    height: 4vh;
+    border-radius: 7px;
+    border-style: double;
+    border-color: gray;
+    transform: translate(1350px, 0);
+  }
+  div .conteudo .bt a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  div .conteudo .bt:hover {
+    background-color: #fffcf4;
+  }
+  div .conteudo h1 {
+    transform: translate(300px, 50px);
+  }
+  div .conteudo .search {
+    width: 600px;
+    height: 4vh;
+    background-color: transparent;
+    transform: translate(300px, 100px);
+  }
+  div .conteudo .search input[type=text] {
+    width: 500px;
+    height: 4vh;
+    border-radius: 7px;
+    border-style: double;
+    border-color: gray;
+  }
+  div .conteudo .search button[type=submit] {
+    width: 80px;
+    height: 4vh;
+    margin-left: 2%;
+    border-radius: 7px;
+    border-style: double;
+    border-color: gray;
+  }
+  div .conteudo .search input[type=text]:hover {
+    background-color: #fffcf4;
+  }
+  div .conteudo .search button[type=submit]:hover {
+    background-color: #fffcf4;
+  }
+  div .conteudo .tabela {
+    width: 850px;
+    transform: translate(305px, 175px);
+  }
+  div .conteudo .tabela .tb {
+    width: 1000px;
+    height: 50vh;
+    background-color: white;
+  }
+  div .conteudo .tabela .cabecalho-tab {
+    padding-left: 59.8px;
+    border: 1px solid;
+    border-color: gray;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+  }
+  div .conteudo {
+    width: 100%;
+    height: 120vh;
+    background-color: #EBE1C5;
+    position: fixed;
+    transform: translate(0, -20px);
+  }
+  div .conteudo .bt {
+    width: 150px;
+    height: 4vh;
+    border-radius: 7px;
+    border-style: double;
+    border-color: gray;
+    transform: translate(950px, 0);
+  }
+  div .conteudo .bt a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  div .conteudo .bt:hover {
+    background-color: #fffcf4;
+  }
+  div .conteudo h1 {
+    transform: translate(170px, 50px);
+  }
+  div .conteudo .search {
+    width: 443px;
+    height: 4vh;
+    background-color: transparent;
+    transform: translate(170px, 100px);
+  }
+  div .conteudo .search input[type=text] {
+    width: 350px;
+    height: 4vh;
+    border-radius: 7px;
+    border-style: double;
+    border-color: gray;
+  }
+  div .conteudo .search button[type=submit] {
+    width: 80px;
+    height: 4vh;
+    margin-left: 2%;
+    border-radius: 7px;
+    border-style: double;
+    border-color: gray;
+  }
+  div .conteudo .search input[type=text]:hover {
+    background-color: #fffcf4;
+  }
+  div .conteudo .search button[type=submit]:hover {
+    background-color: #fffcf4;
+  }
+  div .conteudo .tabela {
+    width: 850px;
+    transform: translate(175px, 175px);
+  }
+  div .conteudo .tabela .tb {
+    width: 850px;
+    height: 50vh;
+    background-color: white;
+  }
+  div .conteudo .tabela .cabecalho-tab {
+    padding-left: 59.8px;
+    border: 1px solid;
+    border-color: gray;
+  }
+}/*# sourceMappingURL=RF09.css.map */

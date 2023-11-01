@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+@import 'variaveis';
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    width: $widthContainer;
+    box-sizing: $boxSiz;
+    display: $disp;
+}
+
+div{
+    .conteudo{
+        width: 100%;
+        height: 100vh;
+        background-color: $corSalmaoClaro;
+        box-sizing: border-box;
+        position: fixed;
+        transform: translate(0, -16px);
+
+        h1{
+            font-size: 25px;
+            margin: 5% 15%;
+        }
+
+        label{
+            font-size: 18px;
+            margin-left: 15%;
+            padding: 20px;
+            
+        }
+
+        .label-inp-menor{
+            margin-left: 270px;
+        }
+
+        .cp{
+            margin-left: 175px;
+        }
+
+        .fileira2{
+            margin-top: 2%;
+            display: inline-flex;
+        }
+
+        .label-email{
+            margin-left: 11%;
+        }
+        .label-cep{
+            margin-left: 21.8%;
+        }
+        .label-n{
+            margin-left: 10%;
+        }
+        input{
+            display: inline-flex;
+            width: 25%;
+            height: 3.25vh;
+            transform: translate(250px, 10px);
+            border-radius: 7px;
+            border-style: double;
+            border-color: gray;
+        }
+
+        .input-menor{
+            width: 20%;
+            margin-left: 3%;
+        }
+
+        input.input-fil2{
+            width: 15%;
+            display: inline-flex;
+            transform: translate(250px, -12px);
+        }
+
+        .input-email{
+            transform: translate(290px, -12px);
+        }
+        .input-cep{
+            width: 13%;
+            transform: translate(325px, -12px);
+        }
+        .input-n{
+            width: 10.7%;
+            transform: translate(355px, -12px);
+        }
+
+        .fileira3{
+            margin-top: 2%;
+            display: inline-flex;
+        }
+        .lb-valor{
+            margin-left: 22%;
+        }
+
+        .lb-form-pag{
+            margin-left: 25.5%;
+        }
+
+        .fileira4{
+            width: 28%;
+            transform: translate(250px, -12px);
+            display: inline-flex;
+        }
+        .input-valor{
+            width: 30%;
+            transform: translate(270px, -12px);
+        }
+
+        select{
+            width: 11%;
+            height: 3vh;
+            border-radius: 7px;
+            transform: translate(285px, -12px);
+            display: inline-flex;
+        }
+
+        .label-pedido{
+            margin-top: 2%;
+            display: inline-flex;
+        }
+
+        textarea{
+            margin-left: 16%;
+            transform: translate(0, -12px);
+            border-radius: 7px;
+        }
+
+        .sub{
+            width: 7%;
+            height: 4vh;
+            transform: translate(20px, -640px);
+            padding-left: 33px;
+        }
+
+        button{
+            width: 7%;
+            height: 4vh;
+            transform: translate(1373px, -620px);
+            border-radius: 7px;
+            border-color: gray;
+            border-style: double;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
