@@ -15,7 +15,7 @@ div {
         width: 100%;
         height: 100vh;
         position: fixed;
-        background-color: #EBE1C5;
+        background-image: linear-gradient(to right, #f6e8bf, #f9f5e8);
         transform: translate(0, -16px);
 
         .title {
@@ -26,12 +26,17 @@ div {
             h1 {
                 font-family: Arial, Helvetica, sans-serif;
             }
+
+            img{
+                transform: translate(410px, -50px);
+            }
         }
 
         .formulario {
             width: 75%;
             height: 65vh;
             margin-left: 15%;
+            transform: translate(0, -70PX);
 
             .nome {
                 font-size: 22px;
@@ -57,6 +62,10 @@ div {
                 border-color: gray;
                 border-style: solid;
             }
+            .i-nome:hover{
+                background-color: #f7f5ee;
+                transition: .3s;
+            }
 
             .i-razao {
                 width: 34%;
@@ -65,6 +74,10 @@ div {
                 border-radius: 7px;
                 border-color: gray;
                 border-style: solid;
+            }
+            .i-razao:hover{
+                background-color: #f7f5ee;
+                transition: .3s;
             }
 
             .i-cnpj {
@@ -75,7 +88,10 @@ div {
                 border-color: gray;
                 border-style: solid;
             }
-
+            .i-cnpj:hover{
+                background-color: #f7f5ee;
+                transition: .3s;
+            }
 
             .fileira2 {
                 margin-top: 2%;
@@ -104,6 +120,10 @@ div {
                     border-color: gray;
                     border-style: solid;
                 }
+                .i-telefone:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
+                }
 
                 .i-email {
                     width: 33.5%;
@@ -113,6 +133,10 @@ div {
                     border-style: solid;
                     margin-left: 2.6%;
                 }
+                .i-email:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
+                }
 
                 .i-cep {
                     width: 25%;
@@ -121,6 +145,10 @@ div {
                     border-color: gray;
                     border-style: solid;
                     margin-left: 3%;
+                }
+                .i-cep:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
                 }
             }
 
@@ -148,6 +176,10 @@ div {
                     border-color: gray;
                     border-style: solid;
                 }
+                .i-endereco:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
+                }
 
                 .i-cidade{
                     width: 33%;
@@ -157,6 +189,10 @@ div {
                     border-style: solid;
                     margin-left: 2.9%;
                 }
+                .i-cidade:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
+                }
 
                 .i-uf{
                     width: 24.5%;
@@ -165,6 +201,10 @@ div {
                     border-color: gray;
                     border-style: solid;
                     margin-left: 3.5%;
+                }
+                .i-uf:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
                 }
             }
             
@@ -187,6 +227,10 @@ div {
                     border-color: gray;
                     border-style: solid;
                 }
+                .i-n:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
+                }
                 .i-bairro{
                     width: 61%;
                     height: 4vh;
@@ -194,6 +238,10 @@ div {
                     border-color: gray;
                     border-style: solid;
                     margin-left: 3%;
+                }
+                .i-bairro:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
                 }
             }
 
@@ -210,6 +258,51 @@ div {
                     border-radius: 7px;
                     border-color: gray;
                     border-style: solid;
+                }
+                textarea:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
+                }
+            }
+
+            .submit-voltar{
+                width: 125px;
+                height: 10vh;
+                background-color: transparent;
+                transform: translate(1120px, -600px);
+
+                input[type="submit"]{
+                    width: 123px;
+                    height: 4vh;
+                    border-radius: 7px;
+                    border-style: solid;
+                    border-color: gray;
+                    background-color: white;
+                    font-size: 17px;
+                }
+
+                input[type="submit"]:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
+                }
+                button{
+                    width: 123px;
+                    height: 4vh;
+                    border-radius: 7px;
+                    border-style: solid;
+                    border-color: gray;
+                    margin-top: 11%;
+                    background-color: white;
+
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 17px;
+                    }
+                }
+                button:hover{
+                    background-color: #f7f5ee;
+                    transition: .3s;
                 }
             }
         }

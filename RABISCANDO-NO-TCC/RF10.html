@@ -16,62 +16,55 @@
         <div class="conteudo">
             <div class="title">
                 <h1>Cadastro de fornecedores</h1>
+                <img src="img/caixa-de-entrega.png" alt="imagem">
             </div>
 
-            <div class="formulario">
-                <label class="nome" for="nome">Nome</label>
-                <label class="razao" for="razao">Razao social</label>
-                <label class="cnpj" for="cnpj">CNPJ</label>
-
-                <br>
-
-                <input class="i-nome" type="text" name="nome" id="nome">
-                <input class="i-razao" type="text" name="razao" id="razao">
-                <input class="i-cnpj" type="number" name="cnpj" id="cnpj">
-
-                <div class="fileira2">
-                    <label class="telefone" for="telefone">Telefone</label>
-                    <label class="email" for="email">E-mail</label>
-                    <label class="cep" for="cep">CEP</label>
-
+            <form action="#" method="post" id="">
+                <div class="formulario">
+                    <label class="nome" for="nome">Nome</label>
+                    <label class="razao" for="razao">Razao social</label>
+                    <label class="cnpj" for="cnpj">CNPJ</label>
                     <br>
+                    <input class="i-nome" type="text" name="nome" id="nome">
+                    <input class="i-razao" type="text" name="razao" id="razao">
+                    <input class="i-cnpj" type="number" name="cnpj" id="cnpj">
+                    <div class="fileira2">
+                        <label class="telefone" for="telefone">Telefone</label>
+                        <label class="email" for="email">E-mail</label>
+                        <label class="cep" for="cep">CEP</label>
+                        <br>
+                        <input class="i-telefone" type="text" name="telefone" id="telefone">
+                        <input class="i-email" type="text" name="email" id="email">
+                        <input class="i-cep" type="number" name="cep" id="cep">
+                    </div>
+                    <div class="fileira3">
+                        <label class="endereco" for="endereco">Endereco</label>
+                        <label class="cidade" for="cidade">Cidade</label>
+                        <label class="uf" for="uf">UF</label>
+                        <br>
+                        <input class="i-endereco" type="text" name="endereco" id="endereco">
+                        <input class="i-cidade" type="text" name="cidade" id="cidade">
+                        <input class="i-uf" type="text" name="uf" id="uf">
+                    </div>
+                    <div class="fileira4">
+                        <label class="n" for="n">Nº</label>
+                        <label class="bairro" for="bairro">Bairro</label>
+                        <br>
+                        <input class="i-n" type="number" name="n" id="n">
+                        <input class="i-bairro" type="text" name="bairro" id="bairro">
+                    </div>
+                    <div class="fileira5">
+                        <label class="obs" for="observacoes">Observacoes</label>
+                        <br>
+                        <textarea name="observacoes" id="observacoes"></textarea>
+                    </div>
 
-                    <input class="i-telefone" type="text" name="telefone" id="telefone">
-                    <input class="i-email" type="text" name="email" id="email">
-                    <input class="i-cep" type="number" name="cep" id="cep">
+                    <div class="submit-voltar">
+                        <input type="submit" value="Salvar"><br>
+                        <button><a href=".">Voltar</a></button>
+                    </div>
                 </div>
-
-                <div class="fileira3">
-                    <label class="endereco" for="endereco">Endereco</label>
-                    <label class="cidade" for="cidade">Cidade</label>
-                    <label class="uf" for="uf">UF</label>
-
-                    <br>
-
-                    <input class="i-endereco" type="text" name="endereco" id="endereco">
-                    <input class="i-cidade" type="text" name="cidade" id="cidade">
-                    <input class="i-uf" type="text" name="uf" id="uf">
-                </div>
-
-                <div class="fileira4">
-                    <label class="n" for="n">N</label>
-                    <label class="bairro" for="bairro">Bairro</label>
-
-                    <br>
-
-                    <input class="i-n" type="number" name="n" id="n">
-                    <input class="i-bairro" type="text" name="bairro" id="bairro">
-                </div>
-
-                <div class="fileira5">
-                    <label class="obs" for="observacoes">Observacoes</label>
-
-                    <br>
-
-                    <textarea name="observacoes" id="observacoes"></textarea>
-                </div>
-
-            </div>
+            </form>
         </div>
 
         <nav class="menu-lateral">

@@ -14,7 +14,7 @@ div .conteudo {
   width: 100%;
   height: 100vh;
   position: fixed;
-  background-color: #EBE1C5;
+  background-image: linear-gradient(to right, #f6e8bf, #f9f5e8);
   transform: translate(0, -16px);
 }
 div .conteudo .title {
@@ -25,10 +25,14 @@ div .conteudo .title {
 div .conteudo .title h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
+div .conteudo .title img {
+  transform: translate(410px, -50px);
+}
 div .conteudo .formulario {
   width: 75%;
   height: 65vh;
   margin-left: 15%;
+  transform: translate(0, -70PX);
 }
 div .conteudo .formulario .nome {
   font-size: 22px;
@@ -51,6 +55,10 @@ div .conteudo .formulario .i-nome {
   border-color: gray;
   border-style: solid;
 }
+div .conteudo .formulario .i-nome:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
+}
 div .conteudo .formulario .i-razao {
   width: 34%;
   margin-left: 2.4%;
@@ -59,6 +67,10 @@ div .conteudo .formulario .i-razao {
   border-color: gray;
   border-style: solid;
 }
+div .conteudo .formulario .i-razao:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
+}
 div .conteudo .formulario .i-cnpj {
   width: 25%;
   margin-left: 2.4%;
@@ -66,6 +78,10 @@ div .conteudo .formulario .i-cnpj {
   border-radius: 7px;
   border-color: gray;
   border-style: solid;
+}
+div .conteudo .formulario .i-cnpj:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
 }
 div .conteudo .formulario .fileira2 {
   margin-top: 2%;
@@ -91,6 +107,10 @@ div .conteudo .formulario .fileira2 .i-telefone {
   border-color: gray;
   border-style: solid;
 }
+div .conteudo .formulario .fileira2 .i-telefone:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
+}
 div .conteudo .formulario .fileira2 .i-email {
   width: 33.5%;
   height: 4vh;
@@ -99,6 +119,10 @@ div .conteudo .formulario .fileira2 .i-email {
   border-style: solid;
   margin-left: 2.6%;
 }
+div .conteudo .formulario .fileira2 .i-email:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
+}
 div .conteudo .formulario .fileira2 .i-cep {
   width: 25%;
   height: 4vh;
@@ -106,6 +130,10 @@ div .conteudo .formulario .fileira2 .i-cep {
   border-color: gray;
   border-style: solid;
   margin-left: 3%;
+}
+div .conteudo .formulario .fileira2 .i-cep:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
 }
 div .conteudo .formulario .fileira3 {
   margin-top: 2%;
@@ -131,6 +159,10 @@ div .conteudo .formulario .fileira3 .i-endereco {
   border-color: gray;
   border-style: solid;
 }
+div .conteudo .formulario .fileira3 .i-endereco:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
+}
 div .conteudo .formulario .fileira3 .i-cidade {
   width: 33%;
   height: 4vh;
@@ -139,6 +171,10 @@ div .conteudo .formulario .fileira3 .i-cidade {
   border-style: solid;
   margin-left: 2.9%;
 }
+div .conteudo .formulario .fileira3 .i-cidade:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
+}
 div .conteudo .formulario .fileira3 .i-uf {
   width: 24.5%;
   height: 4vh;
@@ -146,6 +182,10 @@ div .conteudo .formulario .fileira3 .i-uf {
   border-color: gray;
   border-style: solid;
   margin-left: 3.5%;
+}
+div .conteudo .formulario .fileira3 .i-uf:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
 }
 div .conteudo .formulario .fileira4 {
   margin-top: 2%;
@@ -166,6 +206,10 @@ div .conteudo .formulario .fileira4 .i-n {
   border-color: gray;
   border-style: solid;
 }
+div .conteudo .formulario .fileira4 .i-n:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
+}
 div .conteudo .formulario .fileira4 .i-bairro {
   width: 61%;
   height: 4vh;
@@ -173,6 +217,10 @@ div .conteudo .formulario .fileira4 .i-bairro {
   border-color: gray;
   border-style: solid;
   margin-left: 3%;
+}
+div .conteudo .formulario .fileira4 .i-bairro:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
 }
 div .conteudo .formulario .fileira5 {
   margin-top: 2%;
@@ -187,4 +235,45 @@ div .conteudo .formulario .fileira5 textarea {
   border-radius: 7px;
   border-color: gray;
   border-style: solid;
+}
+div .conteudo .formulario .fileira5 textarea:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
+}
+div .conteudo .formulario .submit-voltar {
+  width: 125px;
+  height: 10vh;
+  background-color: transparent;
+  transform: translate(1120px, -600px);
+}
+div .conteudo .formulario .submit-voltar input[type=submit] {
+  width: 123px;
+  height: 4vh;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: gray;
+  background-color: white;
+  font-size: 17px;
+}
+div .conteudo .formulario .submit-voltar input[type=submit]:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
+}
+div .conteudo .formulario .submit-voltar button {
+  width: 123px;
+  height: 4vh;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: gray;
+  margin-top: 11%;
+  background-color: white;
+}
+div .conteudo .formulario .submit-voltar button a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+div .conteudo .formulario .submit-voltar button:hover {
+  background-color: #f7f5ee;
+  transition: 0.3s;
 }/*# sourceMappingURL=cad_fornecedores.css.map */
