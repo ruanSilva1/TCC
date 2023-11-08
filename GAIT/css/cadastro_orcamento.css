@@ -1,0 +1,514 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: #545454;
+  display: inline-flex;
+}
+.navbar .logo {
+  width: 10%;
+}
+.navbar .logo .imagem-logo {
+  width: 100%;
+  transform: translate(0, -45px);
+}
+.navbar .logo button {
+  height: 10vh;
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar nav {
+  width: 50%;
+  transform: translate(160px);
+  padding-top: 3vh;
+}
+.navbar nav a.link {
+  font-size: 20px;
+  padding-left: 40px;
+  transform: translate(0, 20px);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.navbar nav .link:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.navbar nav .seletor {
+  width: 16%;
+  height: 4vh;
+  border-radius: 7px;
+  border-style: solid;
+  transform: translate(40px);
+}
+.navbar nav .seletor:hover {
+  background-color: #545454;
+  color: white;
+  border-color: white;
+}
+.navbar .conteudo {
+  width: 100%;
+  height: 100vh;
+  background-color: #a8a39d;
+}
+.navbar .nome-tl {
+  transform: translate(190px, 0);
+  width: 27%;
+  height: 10vh;
+  background-color: transparent;
+}
+.navbar .nome-tl .icone-inicio {
+  width: 26%;
+  transform: translate(-20px, -5px);
+}
+.navbar .nome-tl .local-title {
+  transform: translate(90px, -75px);
+}
+
+form {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: #a8a39d;
+}
+form .c1 {
+  width: 25%;
+  height: 9vh;
+  background-color: transparent;
+  transform: translate(0, 185px);
+  margin-left: 5%;
+}
+form .c1 label[for=nome] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .c1 input[name=nome] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl2 {
+  width: 20%;
+  height: 9vh;
+  background-color: transparent;
+  transform: translate(570px, 95px);
+  margin-left: 5%;
+}
+form .cl2 label[for=data_nascimento] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl2 input[name=data_nascimento] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl3 {
+  width: 15%;
+  height: 9vh;
+  background-color: transparent;
+  transform: translate(1030px, 10px);
+  margin-left: 5%;
+}
+form .cl3 label[for=cpf] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl3 input[name=cpf] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl4 {
+  width: 15%;
+  height: 9vh;
+  background-color: transparent;
+  transform: translate(1400px, -75px);
+  margin-left: 5%;
+}
+form .cl4 label[for=cnpj] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl4 input[name=cnpj] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl5 {
+  width: 15%;
+  height: 9vh;
+  background-color: transparent;
+  margin: -1.5% 5%;
+}
+form .cl5 label[for=telefone] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl5 input[name=telefone] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl6 {
+  width: 29.5%;
+  height: 9vh;
+  background-color: transparent;
+  margin: -4% 25%;
+}
+form .cl6 label[for=email] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl6 input[name=email] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl7 {
+  width: 15%;
+  height: 9vh;
+  background-color: transparent;
+  margin: -4% 58.5%;
+}
+form .cl7 label[for=cep] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl7 input[name=cep] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl8 {
+  width: 15%;
+  height: 9vh;
+  background-color: transparent;
+  margin: -4% 78%;
+}
+form .cl8 label[for=endereco] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl8 input[name=endereco] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl9 {
+  width: 15%;
+  height: 9vh;
+  background-color: transparent;
+  margin: 7% 5%;
+}
+form .cl9 label[for=n_endereco] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl9 input[name=n_endereco] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl10 {
+  width: 20%;
+  height: 9vh;
+  background-color: transparent;
+  margin: -11% 25%;
+}
+form .cl10 label[for=forma_pagamento] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl10 select[name=forma_pagamento] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl11 {
+  width: 20%;
+  height: 9vh;
+  background-color: transparent;
+  margin: 7% 50%;
+}
+form .cl11 label[for=tipo_pessoa] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl11 select[name=tipo_pessoa] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl12 {
+  width: 18%;
+  height: 9vh;
+  background-color: transparent;
+  margin: -11% 75%;
+}
+form .cl12 label[for=valor] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl12 input[name=valor] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl13 {
+  width: 15%;
+  height: 9vh;
+  background-color: transparent;
+  margin: 14% 5%;
+}
+form .cl13 label[for=status_venda] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl13 select[name=status_venda] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl14 {
+  width: 15%;
+  height: 9vh;
+  background-color: transparent;
+  transform: translate(95px, -230px);
+}
+form .cl14 label[for=status_orcamento] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl14 select[name=status_orcamento] {
+  width: 100%;
+  height: 4vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl15 {
+  width: 33%;
+  height: 20vh;
+  background-color: transparent;
+  transform: translate(480px, -440px);
+}
+form .cl15 label[for=pedido] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl15 textarea[name=pedido] {
+  width: 100%;
+  height: 17vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form .cl16 {
+  width: 32%;
+  height: 20vh;
+  background-color: transparent;
+  transform: translate(1180px, -630px);
+}
+form .cl16 label[for=descricao] {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+form .cl16 textarea[name=descricao] {
+  width: 100%;
+  height: 17vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form input[type=submit] {
+  width: 10%;
+  height: 4vh;
+  background-color: white;
+  transform: translate(1590px, -1370px);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+form input[type=submit]:hover {
+  background-color: #545454;
+}
+
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: translate(500px, 150px);
+}
+
+@media screen and (max-width: 1440px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar .logo {
+    width: 10%;
+    transform: translate(0, 10px);
+  }
+  .navbar .logo .imagem-logo {
+    width: 100%;
+    transform: translate(0, -35px);
+  }
+  .navbar .logo button {
+    height: 10vh;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .navbar .nome-tl {
+    transform: translate(-10px, 0);
+    width: 25%;
+    height: 10vh;
+    background-color: transparent;
+  }
+  .navbar .nome-tl .icone-inicio {
+    width: 26%;
+    transform: translate(10px, 3px);
+  }
+  .navbar .nome-tl .local-title {
+    transform: translate(90px, -50px);
+  }
+  .navbar nav {
+    width: 65%;
+    transform: translate(3px, 0);
+    padding-top: 3vh;
+    background-color: transparent;
+  }
+  h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(450px, 150px);
+    font-size: 20px;
+  }
+  form .c1 {
+    width: 22%;
+    background-color: transparent;
+    transform: translate(0, 120px);
+  }
+  form .cl2 {
+    background-color: transparent;
+    transform: translate(380px, 50px);
+  }
+  form .cl3 {
+    background-color: transparent;
+    transform: translate(740px, -20px);
+  }
+  form .cl4 {
+    background-color: transparent;
+    transform: translate(1030px, -90px);
+  }
+  form .cl5 {
+    height: 9vh;
+    background-color: transparent;
+  }
+  form .cl6 {
+    width: 28%;
+    transform: translate(0, -10px);
+    background-color: transparent;
+  }
+  form .cl7 {
+    transform: translate(-10px, -20px);
+    background-color: transparent;
+  }
+  form .cl8 {
+    background-color: transparent;
+    transform: translate(-5px, -33px);
+  }
+  form .cl9 {
+    background-color: transparent;
+    transform: translate(0, -30px);
+  }
+  form .cl10 {
+    background-color: transparent;
+    transform: translate(0, -40px);
+  }
+  form .cl10 label[for=forma_pagamento] {
+    font-size: 23px;
+  }
+  form .cl11 {
+    background-color: transparent;
+    transform: translate(0, -52px);
+  }
+  form .cl12 {
+    background-color: transparent;
+    transform: translate(0, -65px);
+  }
+  form .cl13 {
+    background-color: transparent;
+    transform: translate(0, -60px);
+  }
+  form .cl14 {
+    width: 15%;
+    height: 9vh;
+    background-color: transparent;
+    transform: translate(70px, -230px);
+  }
+  form .cl14 label[for=status_orcamento] {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+  }
+  form .cl15 {
+    background-color: transparent;
+    transform: translate(360px, -400px);
+  }
+  form .cl16 {
+    width: 30%;
+    background-color: transparent;
+    transform: translate(900px, -560px);
+  }
+}/*# sourceMappingURL=cadastro_orcamento.css.map */
